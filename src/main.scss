@@ -1,0 +1,40 @@
+@font-face {
+  font-family: Audiowide;
+  src: url("/fonts/Audiowide/Audiowide-Regular.ttf");
+}
+
+html {
+  font-family: $font-family;
+  font-size: 2.5vh;
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+
+html,
+body,
+#👾 {
+  display: flex;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+#👾 {
+  align-items: center;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: normal;
+  text-transform: uppercase;
+}

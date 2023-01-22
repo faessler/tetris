@@ -1,0 +1,17 @@
+.app {
+  display: flex;
+  justify-content: center;
+  gap: 2vh;
+  padding: 2vh;
+  background: rgba(127, 255, 212, 0.8);
+  clip-path: polygon(
+    $border-cut 0%,
+    0% $border-cut,
+    0% calc(100% - $border-cut),
+    $border-cut 100%,
+    calc(100% - $border-cut) 100%,
+    100% calc(100% - $border-cut),
+    100% $border-cut,
+    calc(100% - $border-cut) 0%
+  );
+}

@@ -1,0 +1,28 @@
+.title {
+  margin-bottom: 0.5vh;
+  padding-right: 3vh;
+  text-align: center;
+}
+
+.blocks {
+  display: flex;
+  padding: 2vh;
+  background: $black;
+  clip-path: polygon(
+    0% 0%,
+    0 100%,
+    calc(100% - $border-cut) 100%,
+    calc(100% - $border-cut) 100%,
+    100% calc(100% - $border-cut),
+    100% $border-cut,
+    calc(100% - $border-cut) 0%
+  );
+}
+
+.scale {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  margin: -7.2vh -1.5vh;
+  scale: 0.8;
+}

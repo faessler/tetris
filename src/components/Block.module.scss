@@ -1,0 +1,112 @@
+.block {
+  background: $black;
+  height: 4vh;
+  width: 4vh;
+  border-style: solid;
+}
+
+.emptyBorder {
+  border: 0.5px solid $gray;
+}
+
+.outlined {
+  border-width: 0.5vh;
+}
+
+.I {
+  color: $turqoise;
+
+  &:not(.outlined) {
+    background: currentColor;
+    border-width: 0.7vh;
+    border-color: lighten($turqoise, 10%) darken($turqoise, 5%)
+      darken($turqoise, 10%) darken($turqoise, 5%);
+  }
+  &.outlined {
+    border-color: currentColor;
+  }
+}
+
+.J {
+  color: $blue;
+
+  &:not(.outlined) {
+    background: currentColor;
+    border-width: 0.7vh;
+    border-color: lighten($blue, 10%) darken($blue, 5%) darken($blue, 10%)
+      darken($blue, 5%);
+  }
+  &.outlined {
+    border-color: currentColor;
+  }
+}
+
+.L {
+  color: $orange;
+
+  &:not(.outlined) {
+    background: currentColor;
+    border-width: 0.7vh;
+    border-color: lighten($orange, 10%) darken($orange, 5%) darken($orange, 10%)
+      darken($orange, 5%);
+  }
+  &.outlined {
+    border-color: currentColor;
+  }
+}
+
+.O {
+  color: $yellow;
+
+  &:not(.outlined) {
+    background: currentColor;
+    border-width: 0.7vh;
+    border-color: lighten($yellow, 10%) darken($yellow, 5%) darken($yellow, 10%)
+      darken($yellow, 5%);
+  }
+  &.outlined {
+    border-color: currentColor;
+  }
+}
+
+.S {
+  color: $green;
+
+  &:not(.outlined) {
+    background: currentColor;
+    border-width: 0.7vh;
+    border-color: lighten($green, 10%) darken($green, 5%) darken($green, 10%)
+      darken($green, 5%);
+  }
+  &.outlined {
+    border-color: currentColor;
+  }
+}
+
+.T {
+  color: $purple;
+
+  &:not(.outlined) {
+    background: currentColor;
+    border-width: 0.7vh;
+    border-color: lighten($purple, 10%) darken($purple, 5%) darken($purple, 10%)
+      darken($purple, 5%);
+  }
+  &.outlined {
+    border-color: currentColor;
+  }
+}
+
+.Z {
+  color: $red;
+
+  &:not(.outlined) {
+    background: currentColor;
+    border-width: 0.7vh;
+    border-color: lighten($red, 10%) darken($red, 5%) darken($red, 10%)
+      darken($red, 5%);
+  }
+  &.outlined {
+    border-color: currentColor;
+  }
+}
