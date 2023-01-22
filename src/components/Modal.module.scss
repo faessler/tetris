@@ -1,0 +1,28 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: $dark;
+  opacity: 0.6;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 3vh;
+  background: $white;
+  clip-path: polygon(
+    $border-cut 0%,
+    0% $border-cut,
+    0% calc(100% - $border-cut),
+    $border-cut 100%,
+    calc(100% - $border-cut) 100%,
+    100% calc(100% - $border-cut),
+    100% $border-cut,
+    calc(100% - $border-cut) 0%
+  );
+}

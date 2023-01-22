@@ -1,0 +1,12 @@
+.footer {
+  text-align: center;
+}
+
+.button {
+  color: $white;
+
+  &:hover {
+    color: $dark;
+    background-color: $white;
+  }
+}

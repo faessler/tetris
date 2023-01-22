@@ -38,3 +38,17 @@ h6 {
   font-weight: normal;
   text-transform: uppercase;
 }
+
+pre {
+  margin: 0;
+}
+
+button {
+  appearance: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 2vh;
+  background: none;
+  cursor: pointer;
+}
